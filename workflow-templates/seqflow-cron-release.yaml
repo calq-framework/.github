@@ -1,0 +1,15 @@
+name: seqflow release
+
+on:
+  schedule:
+    - cron:  '0 21 * * *'
+
+jobs:
+  seqflow:
+    uses: calq-framework/seqflow-workflow/.github/workflows/seqflow.yaml@main
+    with:
+      command: release
+    secrets:
+      MAIN_NUGET_PAT: ${{ secrets.MAIN_NUGET_PAT }}
+      CALQ_FRAMEWORK_NUGET_PAT: ${{ secrets.CALQ_FRAMEWORK_NUGET_PAT }}
+      SEQFLOW_PAT: ${{ secrets.SEQFLOW_PAT }}
