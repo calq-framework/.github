@@ -5,6 +5,9 @@ on:
     branches:
       - $default-branch
 
+permissions:
+  contents: write
+
 jobs:
   seqflow:
     uses: calq-framework/seqflow-workflow/.github/workflows/seqflow.yaml@main
