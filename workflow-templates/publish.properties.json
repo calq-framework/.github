@@ -1,0 +1,14 @@
+{
+    "name": "Calq Publish",
+    "description": "Publish workflow with Calq Flow to GitHub Packages.",
+    "iconName": "octicon package",
+    "categories": [
+        "C#",
+        "F#"
+    ],
+    "filePatterns": [
+        ".*\\.csproj$",
+        ".*\\.fsproj$",
+        ".*\\.sln$"
+    ]
+}

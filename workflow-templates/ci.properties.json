@@ -1,0 +1,14 @@
+{
+    "name": "Calq CI",
+    "description": "CI workflow with Calq Flow dry-run on push and pull requests.",
+    "iconName": "octicon rocket",
+    "categories": [
+        "C#",
+        "F#"
+    ],
+    "filePatterns": [
+        ".*\\.csproj$",
+        ".*\\.fsproj$",
+        ".*\\.sln$"
+    ]
+}

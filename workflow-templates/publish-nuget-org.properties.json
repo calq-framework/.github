@@ -1,0 +1,14 @@
+{
+    "name": "Calq Publish to NuGet.org",
+    "description": "Publish workflow with Calq Flow to NuGet.org.",
+    "iconName": "octicon package",
+    "categories": [
+        "C#",
+        "F#"
+    ],
+    "filePatterns": [
+        ".*\\.csproj$",
+        ".*\\.fsproj$",
+        ".*\\.sln$"
+    ]
+}
