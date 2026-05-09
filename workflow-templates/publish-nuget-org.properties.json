@@ -9,6 +9,7 @@
     "filePatterns": [
         ".*\\.csproj$",
         ".*\\.fsproj$",
-        ".*\\.sln$"
+        ".*\\.sln$",
+        ".*\\.slnx$"
     ]
 }
